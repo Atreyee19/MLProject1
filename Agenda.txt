@@ -1,0 +1,30 @@
+1. Set up github {Repository}
+    a) new Environmnet 
+
+            conda create -p venv python==3.8 -y
+            git init
+            create readme.md inside the specific folder
+            git add README.md
+
+            ##You may need to specify identity by
+              >git config --global user.email "atreyeebose9@gmail.com"
+              >git config --global user.name "Atreyee Bose"
+
+            git commit -m "first commit" 
+
+            git branch -M main
+
+            git remote add origin https://github.com/Atreyee19/MLProject1.git 
+            (To sink with github reosetory)
+
+            git push -u origin main  (To push)
+
+    //README file will be created and can be seen when git is refreshed
+
+    Create .gitignore and choose language as python
+
+    b) Setup.py
+    c) requirements.txt
+
+
+2. src folder and build the packages
